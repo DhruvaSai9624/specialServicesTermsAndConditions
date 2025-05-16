@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  button {
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    border: solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+  }
+  
+  button:hover {
+    background-color: rgb(218, 123, 0);
+  }
+  
+  #termsAndConditions,
+  #privacyPolicy {
+    color: rgb(255, 145, 0);
+  }
+  #GPay,
+  #PayPal,
+  #creditCard,
+  #debitCard,
+  #streaming,
+  #music,
+  #movies,
+  #books {
+    accent-color: rgb(255, 165, 0);
+    border: solid;
+  }
+  
+  #email,
+  #password {
+    border-radius: 7px;
+    border: solid;
+    border-color: rgb(255, 165, 0);
+  }
+  
